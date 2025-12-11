@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kahlile Dorian Shaw LLC — Private Client Management</title>
+  <meta name="description" content="Kahlile Dorian Shaw LLC: Private-client business management, operations, vendor oversight, privacy-first administration, and growth services for discreet entrepreneurs and high-value projects." />
+  <meta name="keywords" content="private client management, business operations, vendor management, privacy-first, LLC" />
+  <meta name="robots" content="index,follow" />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+
+  <!-- Simple styles -->
+  <style>
+    :root{--bg:#0f1720;--card:#0b1220;--accent:#9ddfd3;--muted:#9aa4b2;--white:#eef3f7}
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,Helvetica,Arial;color:var(--white);background:linear-gradient(180deg,#071018 0%, #0f1720 100%);-webkit-font-smoothing:antialiased}
+    .wrap{max-width:1100px;margin:36px auto;padding:28px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:20px}
+    .brand{display:flex;align-items:center;gap:14px}
+    .logo{width:56px;height:56px;border-radius:8px;background:linear-gradient(135deg,var(--accent),#60a3b8);display:flex;align-items:center;justify-content:center;font-weight:700;color:#072528}
+    h1{margin:0;font-size:22px;letter-spacing:0.2px}
+    .tag{color:var(--muted);font-size:13px}
+    .hero{display:grid;grid-template-columns:1fr 380px;gap:28px;margin-top:28px}
+    .card{background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);padding:22px;border-radius:14px;box-shadow:0 6px 18px rgba(0,0,0,0.5)}
+    .lead{font-size:16px;color:#dfeaf0;line-height:1.55}
+    .cta{display:inline-block;margin-top:16px;padding:10px 14px;border-radius:10px;background:var(--accent);color:#052826;font-weight:700;text-decoration:none}
+    .services{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:18px}
+    .svc{padding:14px;border-radius:10px;background:rgba(255,255,255,0.02);border:1px solid rgba(255,255,255,0.03)}
+    h2{margin:0 0 8px 0;font-size:18px}
+    p.small{color:var(--muted);margin:0;font-size:13px}
+    .process{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:18px}
+    .step{padding:10px;border-radius:8px;background:rgba(255,255,255,0.01);border:1px solid rgba(255,255,255,0.02)}
+    form{display:flex;flex-direction:column;gap:10px}
+    input,textarea,select{padding:10px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:var(--white);outline:none}
+    textarea{min-height:120px;resize:vertical}
+    .muted{color:var(--muted);font-size:13px}
+    footer{margin-top:36px;padding-top:18px;border-top:1px solid rgba(255,255,255,0.03);display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:13px}
+    @media(max-width:900px){.hero{grid-template-columns:1fr} .process{grid-template-columns:1fr} .services{grid-template-columns:1fr}}
+  </style>
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Kahlile Dorian Shaw LLC",
+    "legalName": "Kahlile Dorian Shaw LLC",
+    "url": "https://kahliledorianshaw.com",
+    "description": "Private-client business management, vendor oversight, and privacy-first operations for discreet entrepreneurs and projects.",
+    "logo": "",
+    "contactPoint": [{
+      "@type": "ContactPoint",
+      "contactType": "customer service",
+      "email": "ops@kahliledorianshaw.com"
+    }]
+  }
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo">KDS</div>
+        <div>
+          <h1>Kahlile Dorian Shaw LLC</h1>
+          <div class="tag">Private-Client Management • Operations • Privacy-First</div>
+        </div>
+      </div>
+      <nav aria-label="primary">
+        <a class="tag" href="#services" style="text-decoration:none;color:var(--muted)">Services</a>
+        <a class="tag" href="#process" style="text-decoration:none;margin-left:18px;color:var(--muted)">Process</a>
+      </nav>
+    </header>
+
+    <section class="hero" aria-labelledby="hero-heading">
+      <main class="card" id="hero-heading">
+        <div style="display:flex;align-items:flex-start;gap:16px">
+          <div style="flex:1">
+            <h2 style="margin-top:0">Private-client business management that keeps the spotlight off you.</h2>
+            <p class="lead">
+              We run operations, vendor relationships, finance flow, and reputation so owners can move without noise.
+              No owner photos. No personal contact in public records. Just clean strategy, tight execution, and results.
+            </p>
+
+            <a class="cta" href="#contact">Request discreet consult</a>
+
+            <div class="services" id="services" style="margin-top:20px">
+              <div class="svc">
+                <h3 style="margin:0;font-size:15px">Operational Management</h3>
+                <p class="small">Daily ops, vendor oversight, contract management, and performance tracking — handled under the LLC.</p>
+              </div>
+              <div class="svc">
+                <h3 style="margin:0;font-size:15px">Privacy & Compliance</h3>
+                <p class="small">Registered agent, virtual mailbox, corporate SOPs for privacy, and trusted vendor protocols.</p>
+              </div>
+              <div class="svc">
+                <h3 style="margin:0;font-size:15px">Financial Hygiene</h3>
+                <p class="small">Clean bookkeeping, bank-grade separation, tax coordination with your CPA, and transparent payflows.</p>
+              </div>
+              <div class="svc">
+                <h3 style="margin:0;font-size:15px">Reputation & SEO</h3>
+                <p class="small">Brand-first web, verified listings, review acquisition, and content to bury undesired results.</p>
+              </div>
+            </div>
+
+            <div id="process" style="margin-top:18px">
+              <h3 style="margin:8px 0 10px 0">How we move — short</h3>
+              <div class="process">
+                <div class="step">
+                  <strong>1 — Audit</strong><div class="muted">Map exposures & public records.</div>
+                </div>
+                <div class="step">
+                  <strong>2 — Lock</strong><div class="muted">Register agent, virtual address, bank separation.</div>
+                </div>
+                <div class="step">
+                  <strong>3 — Operate</strong><div class="muted">All revenue & contracts under the LLC. Brand is the public face.</div>
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top:16px">
+              <p class="muted">We don’t do secrecy for fraud. We do privacy for safety and escalation control. Contracts and tax compliance are always aboveboard.</p>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <aside class="card" aria-labelledby="contact">
+        <h2 id="contact" style="margin-top:0">Contact — discreet inquiry</h2>
+        <p class="muted">Use this form for initial consultations. Responses routed to OPS at company domain. No owner data listed publicly.</p>
+
+        <!-- Replace FORM_ACTION with your Formspree or Netlify endpoint -->
+        <form method="POST" action="https://formspree.io/f/your-form-id">
+          <input type="text" name="name" placeholder="Your initials or company" required />
+          <input type="email" name="email" placeholder="Email (we use brand ops)" required />
+          <input type="text" name="phone" placeholder="Phone (optional)" />
+          <select name="service" required>
+            <option value="">Select need</option>
+            <option>Operations/Management</option>
+            <option>Privacy & Infrastructure</option>
+            <option>Financial Setup</option>
+            <option>Reputation/SEO</option>
+          </select>
+          <textarea name="message" placeholder="Brief summary of needs" required></textarea>
+
+          <label style="display:flex;gap:8px;align-items:center;font-size:13px">
+            <input type="checkbox" name="agree" required /> I confirm I am engaging for lawful business purposes.
+          </label>
+
+          <button type="submit" style="margin-top:6px;padding:10px;border-radius:8px;border:0;background:var(--accent);font-weight:700;color:#072528">Send</button>
+        </form>
+
+        <p class="muted" style="margin-top:12px">Mailing: Use our commercial mailbox on invoices. Legal process goes to registered agent only.</p>
+      </aside>
+    </section>
+
+    <section class="card" style="margin-top:18px">
+      <h2 style="margin:0 0 8px 0">Services — what we own for you</h2>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:12px">
+        <div class="svc">
+          <h3 style="margin:0 0 6px 0">Full Ops Management</h3>
+          <p class="small">We manage vendors, timelines, SLAs, and fulfillment under the LLC. You see results; you don't sign invoices in public.</p>
+        </div>
+        <div class="svc">
+          <h3 style="margin:0 0 6px 0">Privacy Architecture</h3>
+          <p class="small">Registered agent, virtual mailbox, domain privacy, SOPs for mail & vendor access — designed to limit personal exposure.</p>
+        </div>
+        <div class="svc">
+          <h3 style="margin:0 0 6px 0">Financial Controls</h3>
+          <p class="small">Business bank operations, clean bookkeeping, payroll where required, and tax coordination with your CPA.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>© <strong>Kahlile Dorian Shaw LLC</strong></div>
+      <div class="muted">Privacy-first management. Legal compliance. Discreet engagement.</div>
+    </footer>
+  </div>
+</body>
+</html>
